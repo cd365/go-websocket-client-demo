@@ -11,7 +11,7 @@ func main() {
 			fmt.Printf("%s\n", bts)
 		},
 	}
-	addr := "ws://host:port/addr"
+	addr := "ws://127.0.0.1:9630/ws"
 	err := client.Dial(addr)
 	if err != nil {
 		log.Fatalln(err.Error())
